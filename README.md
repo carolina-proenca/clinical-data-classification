@@ -1,9 +1,31 @@
---------- Data exploration and enrichment for supervised classification --------- Neste projeto, o objetivo era prever se um paciente com Carcinoma Hepatocelular vive ou morre, com base nos dados que nos são fornecidos. Assim, dividimos o dataset de 165 pacientes, em dois conjuntos de forma não equivalente, nos quais 70% foram destinados a treino de cinco modelos, e os restantes 30% à testagem.
+Project developed as part of the Artificial Intelligence and Data Science course in the second semester of the 2023/2024 academic year
 
---- Funcionalidades --- Este trabalho contém um ficheiro de jupyter notebook, no qual há código e gráficos, com as suas devidas explicações. Contém um PowerPoint, e um ficheiro com extensão odt, que contém a análises finais do trabalho. Estes ficheiros estão todos no repositório do GitHub.
+Data Exploration and Enrichment for Supervised Classification
 
---- Requisitos --- python, and python libraries - panda, matplotlib, seaborn, numpy, sklearn ;
+In this project, the goal was to predict whether a patient with hepatocellular carcinoma (HCC) would survive or not, based on the clinical data provided.
 
---- Uso --- Para que o código seja executado corretamente com os dados do dataset é essencial que estes estejam na mesma pasta.
+We used a dataset with information from 165 patients, divided unequally into two subsets:
 
---- Link do GitHub --- https://github.com/mariamorais09/trabalho2
+  - 70% of the data was used to train five machine learning models
+  - 30% was reserved to evaluate the performance of the models on data never seen before.
+
+Features
+
+- Jupyter notebook containing:
+ 
+    - Data cleaning, exploration, and enrichment
+    Visualizations with detailed explanations
+    Training and evaluation of classification models
+
+- PowerPoint presentation with a summary of the project and main results
+
+- ODT document with the final analysis and conclusions of the work
+
+All files are available in this GitHub repository
+
+Requirements
+
+  - Python 3
+  - Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+
+Instructions for Use To ensure the notebook runs correctly, make sure the dataset file is in the same folder as the .ipynb file.
